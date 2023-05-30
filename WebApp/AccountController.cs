@@ -12,7 +12,6 @@ namespace WebApp
     public class AccountController : Controller
     {
         private readonly IAccountService _accountService;
-        private readonly object lockObj = new object();
 
         public AccountController(IAccountService accountService)
         {
